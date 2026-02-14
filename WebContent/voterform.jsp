@@ -491,7 +491,7 @@ if (successMsg != null) {
     <form method="post" action="voterapply" enctype="multipart/form-data" onsubmit="return validateForm()">
         
         <div class="form-group">
-            <label><i class="fas fa-user"></i> Voter District</label>
+            <label><i class="fas fa-user"></i> Voter Name</label>
             <input type="text" class="form-control readonly-field" value="<%= name %>" name="name" readonly>
         </div>
         
